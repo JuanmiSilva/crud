@@ -111,7 +111,7 @@ public class ProductoDAO {
   try {
    sql = "SELECT * FROM productos";
    statement = connection.prepareStatement(sql);
-   resultSet = statement.executeQuery(sql);
+   resultSet = statement.executeQuery();
    while (resultSet.next()) {
     Producto p = new Producto();
     p.setId(resultSet.getInt(1));
