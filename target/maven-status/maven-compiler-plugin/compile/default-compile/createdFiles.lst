@@ -1,0 +1,6 @@
+src\dao\ProductoDAO.class
+com\aprendec\model\Producto.class
+com\mycompany\crud\resources\JakartaEE10Resource.class
+com\mycompany\crud\JakartaRestConfiguration.class
+src\Conexion.class
+src\controller\ProductoController.class
